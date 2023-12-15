@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>TerceraPreentrega+SaucedoVictor</title>
+</head>
+
+<body>
+    <h2>Carrito de Compras</h2>
+
+    <p>Color: <input type="text" id="color" value=""></p>
+    <p>Cantidad: <input type="number" id="cantidad" value=""></p>
+    <button onclick="agregarAlCarrito()">Agregar al Carrito</button>
+    <button onclick="mostrarCarrito()">Mostrar Carrito</button>
+    
+    <table>         
+        <thead>
+            <tr>
+                <th>Color</th>
+                <th>Cantidad</th>
+                <th>Sub total</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="items">
+        </tbody>
+        <tfoot>
+            <tr>
+                <th id="total"></th>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+
+
+    <!-- <script src="./PreEntrega1+SaucedoVictor.js"></script> -->
+    <script src="./carrito.cartas.js"></script>
+    <script src="./color.cartas.js"></script>
+    <script src="./cartas.js"></script>
+</body>
+
+</html>
